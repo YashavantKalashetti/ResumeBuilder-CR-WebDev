@@ -7,7 +7,7 @@ The Resume Builder Web Application is a user-friendly tool that simplifies the p
 
 This project is built using web technologies such as HTML, CSS, and JavaScript, with additional server-side functionality implemented using Node.js. It leverages PDF generation libraries to create downloadable and printable resumes. Whether you're building your own personal website or need an easy way to generate professional resumes, this project provides a solid foundation and is open for contributions and customization.
 
-This project serves as the server-side component of the Resume Builder application. It connects the front-end user interface with a database and enables user authentication and data storage. The complete application allows users to create, customize, and export their professional resumes.
+This project serves as the server-side component of the Resume Builder application. It connects the front-end user interface with a database and enables user authentication(using JWT) for using the website. The complete application allows users to create, customize, and export their professional resumes.
 
 ### Code Overview:
 The provided code is the backend server for the Resume Builder Web Application. It uses Node.js and Express to handle requests and serves HTML templates using the EJS view engine. Key features of the code include:
