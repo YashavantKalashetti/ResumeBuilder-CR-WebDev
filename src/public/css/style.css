@@ -1,0 +1,52 @@
+.profile{
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    width: 210px;
+    height: 250px;
+}
+
+#cardHeader{
+    background-image: linear-gradient(to right,rgb(36, 220, 128),rgb(108, 200, 230),rgb(190, 213, 233));
+}
+
+#listHeader{
+    background-image: linear-gradient(to right,rgb(88, 69, 233),rgb(87, 195, 231),rgb(222, 228, 133));
+}
+
+#hobbyT{
+    font-size: medium;
+}
+
+#languageT{
+    font-size: medium;
+}
+
+.info-head{
+    margin-top: 10px;
+}
+
+.first-side{
+    background-color: rgb(202, 216, 255);
+}
+
+.second-side{
+    background-color: beige;
+}
+
+.template-2 {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.imgT{
+    transition: 2s;
+}
+
+.imgT:hover{
+    transform: scale(1.3);
+}
